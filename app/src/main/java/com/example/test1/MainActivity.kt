@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
     @OptIn(UnstableApi::class)  // Add this annotation to opt-in to the unstable API
     private fun exoPlayerInit() {
         // RTSP 스트림 URL
-        val uri = "rtsp://192.168.0.115:8080/h264_pcm.sdp".toUri()
+        val uri = "rtsp url".toUri()
 
         // ExoPlayer 초기화
         player = ExoPlayer.Builder(this).build()
